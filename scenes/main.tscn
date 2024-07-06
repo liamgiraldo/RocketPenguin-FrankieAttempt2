@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://bx0mtokc4t0fh"]
+[gd_scene load_steps=6 format=3 uid="uid://bx0mtokc4t0fh"]
 
 [ext_resource type="PackedScene" uid="uid://36thrdstgaqq" path="res://scenes/player.tscn" id="1_mpj73"]
+[ext_resource type="PackedScene" uid="uid://cfkrhdofl1nec" path="res://scenes/enemy.tscn" id="1_xgest"]
 [ext_resource type="Texture2D" uid="uid://baig2xitqeccg" path="res://assets/tilemap.png" id="2_muaml"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3ba1d"]
@@ -50,6 +51,8 @@ layer_2/name = "pickups"
 layer_2/tile_data = PackedInt32Array()
 layer_3/name = "crops"
 layer_3/tile_data = PackedInt32Array()
+
+[node name="Enemy" parent="." instance=ExtResource("1_xgest")]
 
 [node name="Player" parent="." instance=ExtResource("1_mpj73")]
 z_index = 1
