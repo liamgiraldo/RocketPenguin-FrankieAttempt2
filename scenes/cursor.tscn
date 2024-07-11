@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://coii88cyioo80"]
+
+[ext_resource type="Texture2D" uid="uid://c3e22bacmdpn2" path="res://assets/tomato_sprite 2.png" id="1_147ge"]
+[ext_resource type="Script" path="res://scripts/cursor.gd" id="2_q1nge"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k3nen"]
+atlas = ExtResource("1_147ge")
+region = Rect2(0, 0, 24, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fyhm5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k3nen")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="cursor" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_fyhm5")
+script = ExtResource("2_q1nge")

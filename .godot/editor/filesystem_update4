@@ -1,6 +1,4 @@
-res://scenes/main.tscn
-res://enemy.tscn
-res://scenes/enemy.tscn
-res://scripts/enemy.gd
-res://scenes/health_bar.tscn
 res://scenes/player.tscn
+res://scenes/enemy.tscn
+res://scenes/main.tscn
+res://scenes/cursor.tscn

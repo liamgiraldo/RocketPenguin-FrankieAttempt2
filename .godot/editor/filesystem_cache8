@@ -1,31 +1,37 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1720222529
-icon.svg::CompressedTexture2D::4884843168061052574::1720221755::1720221755::1::::<><>::
-enemy.tscn::PackedScene::5145474231991552094::1720222688::0::1::::<><>::uid://7qrbb2tyrehj::::res://trashmob1.png
-trashmob1.png::CompressedTexture2D::2280107110282015023::1720222529::1720222529::1::::<><>::
-::res://addons/::1720221755
-::res://addons/godot-git-plugin/::1720221755
-git_plugin.gdextension::GDExtension::-1::1720221755::0::1::::<><>::
-plugin.cfg::TextFile::-1::1720221755::0::1::::<><>::
-THIRDPARTY.md::TextFile::-1::1720221755::0::1::::<><>::
-::res://addons/godot-git-plugin/linux/::1720221755
-::res://addons/godot-git-plugin/macos/::1720221755
-::res://addons/godot-git-plugin/win64/::1720221755
-::res://assets/::1720222541
-tilemap.png::CompressedTexture2D::2403349445397912914::1720221755::1720221755::1::::<><>::
-::res://assets/frankiesprites/::1720222534
-corn_all 1.png::CompressedTexture2D::296172375929368445::1720221755::1720221755::1::::<><>::
-corn_inventory.png::CompressedTexture2D::5529708225751818390::1720221755::1720221755::1::::<><>::
-corn_sprite.png::CompressedTexture2D::5554437443555213268::1720221755::1720221755::1::::<><>::
-grasstile_1.png::CompressedTexture2D::8564477990804787215::1720221755::1720221755::1::::<><>::
-soil_planted.png::CompressedTexture2D::8110725501080956235::1720221755::1720221755::1::::<><>::
-soil_ready 1.png::CompressedTexture2D::6167255978193015904::1720221755::1720221755::1::::<><>::
-tomato_inventory.png::CompressedTexture2D::5794616004460460499::1720221755::1720221755::1::::<><>::
-tomato_sprite.png::CompressedTexture2D::1259475995463093751::1720221755::1720221755::1::::<><>::
-trashmob1.png::CompressedTexture2D::8126382586197473899::1720222533::1720222534::1::::<><>::
-tree1.png::CompressedTexture2D::7241321062882253756::1720221755::1720221755::1::::<><>::
-::res://scenes/::1720222451
-main.tscn::PackedScene::4053136816122077501::1720222439::0::1::::<><>::uid://36thrdstgaqq::::res://scenes/player.tscn<>uid://baig2xitqeccg::::res://assets/tilemap.png
-player.tscn::PackedScene::2030450354035486992::1720221755::0::1::::<><>::res://scripts/player.gd
-::res://scripts/::1720221755
-player.gd::GDScript::-1::1720221755::0::1::::<>CharacterBody2D<>::
+::res://::1720671588
+icon.svg::CompressedTexture2D::4884843168061052574::1719797404::1720671588::1::::<><>::
+trashmob1.png::CompressedTexture2D::2280107110282015023::1720671558::1720671558::1::::<><>::
+::res://addons/::1719797404
+::res://addons/godot-git-plugin/::1719797404
+git_plugin.gdextension::GDExtension::-1::1719797404::0::1::::<><>::
+plugin.cfg::TextFile::-1::1719797404::0::1::::<><>::
+THIRDPARTY.md::TextFile::-1::1719797404::0::1::::<><>::
+::res://addons/godot-git-plugin/linux/::1719797404
+::res://addons/godot-git-plugin/macos/::1719797404
+::res://addons/godot-git-plugin/win64/::1720671582
+::res://assets/::1720671869
+tilemap.png::CompressedTexture2D::2403349445397912914::1719797404::1719797404::1::::<><>::
+tomato_sprite 1.png::CompressedTexture2D::5248635605151155112::1719777157::1720671872::1::::<><>::
+tomato_sprite 2.png::CompressedTexture2D::6748074128137867433::1719778867::1720671872::1::::<><>::
+::res://assets/frankiesprites/::1720671558
+corn_all 1.png::CompressedTexture2D::296172375929368445::1719797404::1719797404::1::::<><>::
+corn_inventory.png::CompressedTexture2D::5529708225751818390::1719797404::1719797404::1::::<><>::
+corn_sprite.png::CompressedTexture2D::5554437443555213268::1719797404::1719797404::1::::<><>::
+grasstile_1.png::CompressedTexture2D::8564477990804787215::1719797404::1719797404::1::::<><>::
+soil_planted.png::CompressedTexture2D::8110725501080956235::1719797404::1719797404::1::::<><>::
+soil_ready 1.png::CompressedTexture2D::6167255978193015904::1719797404::1719797404::1::::<><>::
+tomato_inventory.png::CompressedTexture2D::5794616004460460499::1719797404::1719797404::1::::<><>::
+tomato_sprite.png::CompressedTexture2D::1259475995463093751::1719797404::1719797404::1::::<><>::
+trashmob1.png::CompressedTexture2D::8126382586197473899::1720671558::1720671558::1::::<><>::
+tree1.png::CompressedTexture2D::7241321062882253756::1719797404::1719797404::1::::<><>::
+::res://scenes/::1720671832
+cursor.tscn::PackedScene::-1::1720671783::0::1::::<><>::
+enemy.tscn::PackedScene::5145474231991552094::1720671662::0::1::::<><>::uid://7qrbb2tyrehj::::res://trashmob1.png<>res://scripts/enemy.gd<>uid://bt7n35i58tkus::::res://scenes/health_bar.tscn
+health_bar.tscn::PackedScene::3786909713547790794::1720671558::0::1::::<><>::
+main.tscn::PackedScene::4053136816122077501::1720671662::0::1::::<><>::uid://36thrdstgaqq::::res://scenes/player.tscn<>uid://cfkrhdofl1nec::::res://scenes/enemy.tscn<>uid://baig2xitqeccg::::res://assets/tilemap.png
+player.tscn::PackedScene::2030450354035486992::1720671662::0::1::::<><>::res://scripts/player.gd
+::res://scripts/::1720671844
+cursor.gd::GDScript::-1::1719780089::0::1::::<>AnimatedSprite2D<>::
+enemy.gd::GDScript::-1::1720671558::0::1::::<>CharacterBody2D<>::
+player.gd::GDScript::-1::1719797404::0::1::::<>CharacterBody2D<>::

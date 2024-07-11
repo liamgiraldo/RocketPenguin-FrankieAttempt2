@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://bx0mtokc4t0fh"]
+[gd_scene load_steps=7 format=3 uid="uid://bx0mtokc4t0fh"]
 
 [ext_resource type="PackedScene" uid="uid://36thrdstgaqq" path="res://scenes/player.tscn" id="1_mpj73"]
 [ext_resource type="PackedScene" uid="uid://cfkrhdofl1nec" path="res://scenes/enemy.tscn" id="1_xgest"]
 [ext_resource type="Texture2D" uid="uid://baig2xitqeccg" path="res://assets/tilemap.png" id="2_muaml"]
+[ext_resource type="PackedScene" uid="uid://coii88cyioo80" path="res://scenes/cursor.tscn" id="4_8sbvk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3ba1d"]
 texture = ExtResource("2_muaml")
@@ -56,3 +57,5 @@ layer_3/tile_data = PackedInt32Array()
 
 [node name="Player" parent="." instance=ExtResource("1_mpj73")]
 z_index = 1
+
+[node name="cursor" parent="." instance=ExtResource("4_8sbvk")]
